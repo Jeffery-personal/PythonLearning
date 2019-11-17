@@ -19,6 +19,7 @@ else:
     print('你還不能投票')
 """
 
+"""
 age = input('請輸入年齡:')
 age = int(age)
 if age < 13:
@@ -29,3 +30,12 @@ elif age >= 18 and age < 22:
     print('大學')
 else:
     print('社會')
+"""
+
+# while
+
+x = 5
+while x < 10:
+    print('x小於10喔!')
+    x = x + 1
+print('我逃出了!')
