@@ -14,6 +14,10 @@ while True:
     # products.append(name)
 print(products)
 
+for p in products:
+    print(p)
+    print(p[0], '的價格是', p[1])
+
 """
 product[0][0] 代表甚麼意思? 代表n0
 product[0][1] 代表甚麼意思? 代表p0
